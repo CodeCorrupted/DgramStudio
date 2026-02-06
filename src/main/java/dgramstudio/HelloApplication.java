@@ -1,4 +1,4 @@
-package com.macanas.dgramstudio;
+package dgramstudio;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

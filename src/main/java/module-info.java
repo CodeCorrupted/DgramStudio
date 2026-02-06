@@ -5,6 +5,8 @@ module com.macanas.dgramstudio {
     requires org.controlsfx.controls;
     requires org.kordamp.ikonli.javafx;
 
-    opens com.macanas.dgramstudio to javafx.fxml;
-    exports com.macanas.dgramstudio;
+    opens dgramstudio to javafx.fxml;
+    exports dgramstudio;
+    exports dgramstudio.controller;
+    opens dgramstudio.controller to javafx.fxml;
 }
